@@ -1,0 +1,101 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DMS0000017TCn" method="POST">
+
+<input type=hidden name="oid" value="00DMS0000017TCn">
+<input type=hidden name="retURL" value="http://">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="laurens.leslie@treessolutions.com">                              -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+
+<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+
+Business Unit:<select id="Business_Unit__c" name="Business_Unit__c" title="Business Unit">
+  <option value="a02MS000003EB57YAG" selected>PT Samudera Banten Logistik</option>
+</select><br>
+
+Line of Business (LoB):<select  id="00NMS000000N0Lt" name="00NMS000000N0Lt" title="Line of Business (LoB)"><option value="">--None--</option><option value="Holding">Holding</option>
+<option value="Shipping">Shipping</option>
+<option value="Logistics">Logistics</option>
+<option value="Ports">Ports</option>
+<option value="Services">Services</option>
+</select><br>
+
+Sub LoB:<select  id="00NMS000000N0NV" name="00NMS000000N0NV" title="Sub LoB"><option value="">--None--</option><option value="Warehousing &amp; Distribution Center">Warehousing &amp; Distribution Center</option>
+<option value="Inland Transportation">Inland Transportation</option>
+<option value="Integrated Logistics Services">Integrated Logistics Services</option>
+<option value="Cold Chain Logistics">Cold Chain Logistics</option>
+<option value="Container Depot Services">Container Depot Services</option>
+<option value="Logistics Services Provider">Logistics Services Provider</option>
+<option value="Project Logistics">Project Logistics</option>
+<option value="Port and Terminal Developer">Port and Terminal Developer</option>
+<option value="Container Terminal Operator">Container Terminal Operator</option>
+<option value="Port Equipment Maintenance and Repair">Port Equipment Maintenance and Repair</option>
+<option value="Property Developer &amp; Management">Property Developer &amp; Management</option>
+<option value="Property Investment">Property Investment</option>
+<option value="Employment Services">Employment Services</option>
+<option value="IT Services">IT Services</option>
+<option value="Consulting Services">Consulting Services</option>
+<option value="MICE (Meetings, Incentives, Conferences, Exhibition)">MICE (Meetings, Incentives, Conferences, Exhibition)</option>
+<option value="General Support Services">General Support Services</option>
+<option value="Container Shipping Operator">Container Shipping Operator</option>
+<option value="Shipping Agencies">Shipping Agencies</option>
+<option value="Ship Management">Ship Management</option>
+<option value="Shipowning">Shipowning</option>
+<option value="Shipyard">Shipyard</option>
+<option value="Crewing and Manning">Crewing and Manning</option>
+<option value="Bulk Carrier and Tanker">Bulk Carrier and Tanker</option>
+<option value="Port Operator">Port Operator</option>
+<option value="Stevedoring &amp; Project">Stevedoring &amp; Project</option>
+<option value="Tally">Tally</option>
+<option value="Equipment Provider">Equipment Provider</option>
+<option value="Waste Management">Waste Management</option>
+<option value="Renewable Energy Management">Renewable Energy Management</option>
+<option value="EPC (Engineering, Procurement, and Construction)">EPC (Engineering, Procurement, and Construction)</option>
+<option value="CSR">CSR</option>
+<option value="Ship Salvage">Ship Salvage</option>
+<option value="NVOCC">NVOCC</option>
+<option value="Investment Company">Investment Company</option>
+<option value="Trading Company">Trading Company</option>
+</select><br>
+
+<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Advertisement">Advertisement</option>
+<option value="Event">Event</option>
+<option value="External Referral">External Referral</option>
+<option value="Partner">Partner</option>
+<option value="Purchased List">Purchased List</option>
+<option value="Website">Website</option>
+<option value="Social_Media">Social_Media</option>
+<option value="Samudera Connect">Samudera Connect</option>
+<option value="Internal Information">Internal Information</option>
+<option value="Canvassing">Canvassing</option>
+</select><br>
+
+<input type="submit" name="submit">
+
+</form>
